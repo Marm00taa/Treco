@@ -16,4 +16,3 @@ else:
    x2= (-b-math.sqrt(delta)) / 2*a
 
    print('x1= {}\nx2= {}'.format(x1,x2))
-

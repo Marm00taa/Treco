@@ -6,7 +6,7 @@ a=float(input('Digite o valor de A: '))
 b=float(input('Digite o valor de B: '))
 
 if(a>b): c=a-b
-elif(b>a): c=b-a
+else: c=b-a
 
 c=str(c)
 
