@@ -1,11 +1,12 @@
 import math
 
 a=0;b=0;c=0
-delta= (b**2) - 4*a*c
 
 a=float(input('Digite o valor de A:'))
 b=float(input('Digite o valor de B:'))
 c=float(input('Digite o valor de C:'))
+
+delta= (b**2) - 4*a*c
 
 if(a==0):
     print('O valor de A deve ser diferente de 0')
