@@ -1,6 +1,6 @@
 import sys,time,os,math
 
-num1=num2=num3=bum4=num5=aux=0
+num1=num2=num3=num4=num5=aux=0
 
 
 num1=int(input("Digite o 1 valor: "))
