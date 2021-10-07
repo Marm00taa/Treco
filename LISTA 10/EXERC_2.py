@@ -29,14 +29,14 @@ def Menu():
     os.system("cls")
     print("1. Calcular")
     print("2. Sair")
-    op = int(input("Digite a Opção Desejada: "))
-    if op < 1 or op > 2:
+    ep = int(input("Digite a Opção Desejada: "))
+    if ep < 1 or ep > 2:
         print("\nOpção Inválida,Tente Novamente")
         time.sleep(3)
         os.system("cls")
-    elif op == 2:
+    elif ep == 2:
         sys.exit()
-    elif op == 1:
+    elif ep == 1:
         Executar()
 
 def Executar():
