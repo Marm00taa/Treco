@@ -6,7 +6,7 @@ while(menu==1):
     menu=int(input("MENU\n 1.EXECUTAR\n 2.SAIR\n"))
 
     txmulta=0.02
-    txjuros=0.02
+    txjuros=0.01
 
     valor = float(input("Digite o valor da prestação em atraso: R$"))
     dias = int(input("Quantos dias de atraso: "))
